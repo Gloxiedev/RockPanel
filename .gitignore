@@ -1,0 +1,72 @@
+# Build artifacts
+rockpanel
+rockpanel-*
+*.exe
+*.test
+*.out
+dist/
+build/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+data/
+var/lib/rockpanel/
+
+# Logs
+*.log
+logs/
+var/log/rockpanel/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Local configuration
+config.local.yaml
+.env
+.env.local
+.env.*.local
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secret
+
+# Generated files
+*.gen.go
+go.sum
+vendor/
+
+# Test artifacts
+coverage.out
+coverage.html
+*.prof
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Release artifacts
+release/
+*.tar.gz
+*.zip
+checksums.txt
