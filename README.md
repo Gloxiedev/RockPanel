@@ -45,16 +45,16 @@ Single binary, SQLite database, no external dependencies.
 ## Installation
 
 ```bash
-curl -fsSL https://github.com/rockpanel/rockpanel/releases/latest/download/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Gloxiedev/RockPanel/main/install.sh | sh
 rockpanel init
 ```
 
-Or download the binary directly from [GitHub Releases](https://github.com/rockpanel/rockpanel/releases).
+Or download the binary directly from [GitHub Releases](https://github.com/Gloxiedev/RockPanel/releases).
 
 ### Manual Installation
 
 ```bash
-wget https://github.com/rockpanel/rockpanel/releases/latest/download/rockpanel-linux-amd64
+wget https://github.com/Gloxiedev/RockPanel/releases/latest/download/rockpanel-linux-amd64
 chmod +x rockpanel-linux-amd64
 sudo mv rockpanel-linux-amd64 /usr/local/bin/rockpanel
 rockpanel init
@@ -183,7 +183,7 @@ modules:
 ## Development
 
 ```bash
-git clone https://github.com/rockpanel/rockpanel
+git clone https://github.com/Gloxiedev/RockPanel.git
 cd rockpanel
 go build -o rockpanel ./cmd/rockpanel
 ./rockpanel init
