@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-REPO="rockpanel/rockpanel"
+REPO="Gloxiedev/RockPanel"
 BINARY="rockpanel"
 INSTALL_DIR="/usr/local/bin"
 
